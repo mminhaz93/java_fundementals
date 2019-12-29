@@ -87,6 +87,11 @@ public class StringExamples {
 		System.out.println("Value of : " + s1 + 10);// concatenating string with 10
 
 		// HW - Why is string immutable in Java with examples
+		// Print every other word is different cases
+		// example: String s = "Welcome to selenium java training"
+		// -- assume that you don't know the sentence and it needs to work for any
+		// sentences
+		// Expected out: WELCOME to SELENIUM java TRAINING
 
 	}
 
