@@ -3,7 +3,6 @@ package java_fundamentals;
 public class TwoDArray {
 
 	public static void main(String[] args) {
-
 		/*
 		 * int twoDArray [p][q] = {{0,1},{2,3}}; = { p{q}, p{q} }
 		 */
