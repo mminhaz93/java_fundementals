@@ -15,12 +15,12 @@ public class Objects {
 	 */
 
 	// Creating constructor
-	public Objects(String color) {
+	public Objects(int number, String name) {
 
 		System.out.println("I am in constructor");
 
 		// This constructor has one parameter, name.
-		System.out.println("Object Color :" + color);
+//		System.out.println("Object Color :" + color);
 	}
 
 	public static void main(String[] args) {
@@ -29,7 +29,9 @@ public class Objects {
 		 * Object creation Syntax: ClassNmae objectName = new ClassName()
 		 */
 
-		Objects myObj = new Objects("black");
+		Objects myObj = new Objects(12, "string");
+
+		System.out.println(myObj.toString());
 
 		System.out.println("I am in main method");
 	}

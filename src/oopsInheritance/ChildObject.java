@@ -4,6 +4,7 @@ public class ChildObject {
 
 	public static void main(String[] args) {
 
+		// Using object
 		Parent myParent = new Parent();
 
 		System.out.println("My last name is " + myParent.lastName);
